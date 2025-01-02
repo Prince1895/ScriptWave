@@ -68,5 +68,7 @@
   img{
     height: 50px;
     width: 100px;
-
+  }
+  #content{
+    background-image: url(background.png);
   }
