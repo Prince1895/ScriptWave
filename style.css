@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnav{
+    background-color: #000000;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color:  #04AA6D;
+    color: black;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+  }
+  .topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 17px;
+    border-radius: 5px;
+  }
