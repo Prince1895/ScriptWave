@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Raleway, sans-serif
 }
 .topnav{
     background-color: #000000;
@@ -69,8 +71,126 @@
     font-size: 17px;
     border-radius: 5px;
   }
-  img{
+  #logo{
     align: center;
     height: 50px;
     width: 100px; 
 }
+ .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    
+   
+}
+#background{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.login-box{
+    height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #ffffff;
+    position: absolute;
+   background-color: rgba(8, 8, 8, 0.836);
+border-radius: 15px;
+justify-items: center;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 50px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #fdfdfd;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+    color: #fdfdfd;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #f9f9ff;
+}
+
+.login__submit {
+	background:rgb(35, 177, 35);
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #efeff3;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #ffffff;
+	box-shadow: 0px 2px 2px #ffffff;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #ffffff;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #ffffff;
+}
+  .divider {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(246, 246, 246);
+  }
+  .social-login {	
+	position: absolute;
+	height: 140px;
+	width: 160px;
+	color: #fff;
+    text-align: center;
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #7875B5;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}
+
